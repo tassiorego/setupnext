@@ -10,6 +10,6 @@ export default createGlobalStyle`
   body {
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-
+    font-family: 'Poppins', sans-serif;
   }
 `;

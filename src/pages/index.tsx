@@ -1,17 +1,16 @@
 import Head from 'next/head';
-import redis from '../assets/redis.png';
+import Logo from '../assets/logo.svg';
+import { Container } from '../styles/pages/Home';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
-        <title>Create Next App</title>
+        <title>Next Template</title>
       </Head>
-      <main>
-        <h1>Olá mundo</h1>
-        <img src={redis} />
-      </main>
-    </div>
+      <Logo />
+      <h1>Welcome to Next Template</h1>
+    </Container>
   );
 };
 
