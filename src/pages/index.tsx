@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import redis from '../assets/redis.png';
 
 const Home: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Home: React.FC = () => {
       </Head>
       <main>
         <h1>Olá mundo</h1>
+        <img src={redis} />
       </main>
     </div>
   );
