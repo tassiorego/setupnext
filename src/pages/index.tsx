@@ -9,6 +9,7 @@ const Home: React.FC = () => {
         <title>Next Template</title>
       </Head>
       <Logo />
+      {rolou}
       <h1>Welcome to Next Template</h1>
     </Container>
   );
