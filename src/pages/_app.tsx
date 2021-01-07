@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app';
 
-import GlobalStyle from '../styles/global';
 import { ThemeProvider } from 'styled-components';
+import GlobalStyle from '../styles/global';
 import defaultTheme from '../styles/themes/default';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
